@@ -79,27 +79,43 @@ export default function Projects() {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true }}
             transition={{ delay: 0.4 }}
-            className="md:col-span-12 bg-surface-container p-8 rounded-2xl border border-outline-variant/10 group hover:bg-surface-bright transition-all"
+            className="md:col-span-12 bg-surface-container p-8 md:p-12 rounded-3xl border border-outline-variant/10 group hover:bg-surface-bright transition-all overflow-hidden"
           >
-            <div className="grid md:grid-cols-2 gap-8 items-center">
-              <div>
-                <Compass className="text-tertiary mb-4 w-10 h-10" />
-                <h3 className="font-headline text-2xl font-bold text-on-surface mb-4">PoorKids Adventure Travel Blog</h3>
-                <p className="text-on-surface-variant mb-6">
-                  A performance-optimized content platform featuring interactive maps, high-resolution media galleries, and dynamic destination guides for budget-conscious travelers.
+            <div className="grid md:grid-cols-5 gap-12 items-center">
+              <div className="md:col-span-2">
+                <Compass className="text-tertiary mb-6 w-12 h-12" />
+                <h3 className="font-headline text-3xl font-bold text-on-surface mb-6">PoorKids Adventures</h3>
+                <p className="text-on-surface-variant mb-8 text-lg leading-relaxed">
+                  A comprehensive budget travel platform providing detailed guides, cost-saving tips, and destination insights for travelers looking to explore the world without breaking the bank.
                 </p>
-                <div className="flex gap-3">
-                  <span className="px-3 py-1 border border-outline-variant/30 text-outline text-xs rounded-full">Tailwind CSS</span>
-                  <span className="px-3 py-1 border border-outline-variant/30 text-outline text-xs rounded-full">Markdown</span>
+                <div className="flex flex-wrap gap-3 mb-10">
+                  <span className="px-4 py-1.5 border border-outline-variant/30 text-outline text-sm rounded-full font-medium">ReactJS</span>
+                  <span className="px-4 py-1.5 border border-outline-variant/30 text-outline text-sm rounded-full font-medium">TailwindCSS</span>
+                  <span className="px-4 py-1.5 border border-outline-variant/30 text-outline text-sm rounded-full font-medium">Github</span>
                 </div>
+                <motion.a 
+                  href="https://poorkids-adventures-875354943693.us-west1.run.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  className="inline-flex items-center gap-3 px-8 py-4 bg-primary text-on-primary rounded-2xl font-bold text-base transition-all hover:shadow-xl hover:shadow-primary/30"
+                >
+                  Visit Live Site <ExternalLink className="w-5 h-5" />
+                </motion.a>
               </div>
-              <div className="rounded-xl overflow-hidden shadow-xl">
-                <img 
-                  alt="Travel Blog Visual" 
-                  className="w-full h-64 object-cover group-hover:scale-105 transition-transform duration-700" 
-                  referrerPolicy="no-referrer"
-                  src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBYBtlRSO9GqX5sf1Pm0tp3YIreyABR9Ac_slv5xaaggHc4SfkBpRTg0u5q4sGKZLG4bmpBjEmGDEThpLs5_gHf44PbpeV7TdgzSHlfTRW-V4Rgf78n-V7SZsTys8LivyxYQwM-0ex-11XrXfz_tj1En-Y89oalZZuJ4OGsJt7iiOgmFYkBtKp2QV2z-yvegZ8Bow1N4bm43vePQvXfOltKshWqjHF0dOV5iZGs3pBB02SRUlBWDqkgo_LxOcwhKDGUN5nXT4CEPM"
-                />
+              <div className="md:col-span-3 relative">
+                <div className="relative z-10 rounded-2xl overflow-hidden shadow-2xl border border-outline-variant/20 transform group-hover:scale-[1.02] transition-transform duration-700">
+                  <img 
+                    alt="PoorKids Adventures Mockup" 
+                    className="w-full h-auto object-cover" 
+                    referrerPolicy="no-referrer"
+                    src="/poorkids-adventures-mockup.png"
+                  />
+                </div>
+                {/* Decorative background element */}
+                <div className="absolute -top-10 -right-10 w-64 h-64 bg-tertiary/10 blur-3xl rounded-full -z-0"></div>
+                <div className="absolute -bottom-10 -left-10 w-48 h-48 bg-primary/10 blur-3xl rounded-full -z-0"></div>
               </div>
             </div>
           </motion.div>

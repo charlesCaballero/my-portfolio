@@ -28,11 +28,14 @@ export default function Education() {
           >
             <div className="relative z-10">
               <h4 className="font-label text-primary text-xs font-bold uppercase mb-2">Bachelor of Science</h4>
-              <h3 className="font-headline text-xl font-bold text-on-surface mb-4">Computer Engineering</h3>
-              <p className="text-on-surface-variant text-sm mb-6">University of Science and Technology of Southern Philippines (USTP)</p>
+              <h3 className="font-headline text-xl font-bold text-on-surface mb-2">Computer Engineering</h3>
+              <p className="text-on-surface-variant text-sm mb-4">University of Science and Technology of Southern Philippines</p>
+              <p className="text-on-surface-variant text-sm mb-6 leading-relaxed">
+                Strong foundation in software development, hardware systems, and systems integration.
+              </p>
               <div className="flex items-center gap-2 text-primary font-semibold text-sm">
                 <GraduationCap className="w-5 h-5" />
-                Class of 2018
+                June 2012 – March 2017
               </div>
             </div>
             <Cpu className="absolute -bottom-4 -right-4 w-32 h-32 text-primary/5 select-none pointer-events-none" />
@@ -58,9 +61,14 @@ export default function Education() {
               <h3 className="font-headline text-xl font-bold text-on-surface mb-2">Google UX Design</h3>
               <p className="text-tertiary text-xs font-bold uppercase tracking-widest mb-4 italic">Professional Certificate</p>
               <p className="text-on-surface-variant text-sm mb-6">Mastering the end-to-end design process, from user research to high-fidelity prototyping.</p>
-              <button className="text-on-surface font-bold text-sm flex items-center gap-2 hover:text-primary transition-colors">
-                Verify Credential <CheckCircle className="w-4 h-4" />
-              </button>
+              <a 
+                href="https://drive.google.com/file/d/1Ifl_YN_GwY55kV4dcd1c0lDAtn6_ej19/view?usp=sharing"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-on-surface font-bold text-sm flex items-center gap-2 hover:text-primary transition-colors"
+              >
+                View Certificate <CheckCircle className="w-4 h-4" />
+              </a>
             </div>
             <div className="absolute top-0 right-0 w-32 h-32 bg-tertiary/5 blur-3xl rounded-full"></div>
           </motion.div>

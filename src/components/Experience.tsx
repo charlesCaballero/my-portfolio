@@ -2,34 +2,38 @@ import { motion } from "motion/react";
 
 const experiences = [
   {
-    period: "2022 - Present",
-    company: "PhilHealth",
-    role: "Social Insurance Officer",
+    period: "August 2018 – Present",
+    company: "PhilHealth Regional Office X – Cagayan de Oro City",
+    role: "Social Insurance Assistant I / Full-Stack Developer",
     points: [
-      "Efficiently managed member inquiries and claim processing workflows.",
-      "Implemented internal tracking systems to improve response times.",
-      "Facilitated digital transformation initiatives for regional branch operations."
+      "Manage and organise warehouse records, including storage, withdrawal, return, and disposal of documents.",
+      "Developed a warehouse management system to improve operational efficiency and tracking processes.",
+      "Built responsive web interfaces using React, Next.js, and Tailwind CSS.",
+      "Maintained and enhanced internal systems for improved usability and performance.",
+      "Utilised Git for version control and structured development workflows.",
+      "Leveraged AI tools to streamline development, assist in debugging, and improve code quality."
     ],
     align: "left"
   },
   {
-    period: "2020 - 2022",
-    company: "USTP",
-    role: "System Developer / Instructor",
+    period: "June 2023 – Present",
+    company: "University of Science and Technology of Southern Philippines – Cagayan de Oro City",
+    role: "Part-time Instructor",
     points: [
-      "Developed University-wide information systems for student data management.",
-      "Mentored 100+ students in computer engineering core principles.",
-      "Maintained institutional web assets and hardware infrastructure."
+      "Delivered lectures and facilitated learning in Computer Fundamentals and Programming with a focus on Python programming.",
+      "Developed instructional materials to support student understanding.",
+      "Guided students in applying technical concepts to practical projects."
     ],
     align: "right"
   },
   {
-    period: "2018 - 2020",
-    company: "Xavier University",
-    role: "Laboratory Coordinator",
+    period: "July 2017 – August 2018",
+    company: "Xavier University – Cagayan de Oro City",
+    role: "Project Assistant",
     points: [
-      "Optimized laboratory equipment procurement and maintenance schedules.",
-      "Coordinated cross-departmental administrative tasks for the Engineering college."
+      "Contributed to the development of a mobile application for farmers to identify optimal fertilizers for vegetable crops.",
+      "Assisted in system design, testing, and implementation.",
+      "Supported project coordination and documentation to ensure timely delivery."
     ],
     align: "left"
   }

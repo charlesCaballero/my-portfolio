@@ -1,26 +1,26 @@
 import { motion } from "motion/react";
-import { Monitor, GitBranch, Terminal, Headset } from "lucide-react";
+import { Monitor, Layout, Wrench, Server } from "lucide-react";
 
 const skillCards = [
   {
     icon: Monitor,
-    title: "Frontend",
-    description: "React, Next.js, Tailwind CSS"
+    title: "Web Development",
+    description: "HTML, JavaScript, ReactJS, Next.js, Laravel, Python"
   },
   {
-    icon: GitBranch,
-    title: "Version Control",
-    description: "Git, GitHub, GitLab"
+    icon: Layout,
+    title: "Styling",
+    description: "CSS, Tailwind CSS, Responsive Design"
   },
   {
-    icon: Terminal,
-    title: "Backend",
-    description: "Node.js, Express, SQL"
+    icon: Wrench,
+    title: "Tools",
+    description: "Figma, Google Stitch, Git, GitHub, VS Code, Canva, CMS platforms"
   },
   {
-    icon: Headset,
-    title: "Systems",
-    description: "Administrative Support, Operations"
+    icon: Server,
+    title: "Back-End",
+    description: "PHP (basic), MySQL, Postgres, API integration"
   }
 ];
 
@@ -37,7 +37,7 @@ export default function Skills() {
           >
             <span className="font-label text-primary text-sm tracking-widest uppercase mb-4 block">CORE SKILLS</span>
             <h2 className="font-headline text-3xl md:text-4xl font-bold mb-6 text-on-surface leading-snug">
-              Web Developer and Virtual Assistant with experience in developing responsive web applications and supporting business operations.
+              Web Developer and College Instructor with experience in developing responsive web applications and supporting business operations.
             </h2>
             <p className="text-on-surface-variant leading-loose mb-8">
               Strong background in system development, administrative support, and education. I leverage my engineering background to solve complex business problems with scalable code and efficient workflows.

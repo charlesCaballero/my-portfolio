@@ -40,7 +40,7 @@ export default function Footer() {
             </div>
           </div>
           <div className="text-slate-500 text-xs mt-12">
-            © 2024 Charles G. Caballero | ArgusXCodes. Built with Precision.
+            © {new Date().getFullYear()} Charles G. Caballero | ArgusXCodes. Built with Precision.
           </div>
         </div>
       </div>
